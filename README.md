@@ -42,18 +42,8 @@ Used as the final model after model comparison.
 ## Model Evaluation
 Evaluation metrics:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Cross Validation
-
 ## Hyperparameter Tuning
 Used GridSearchCV to optimize Random Forest parameters.
-
-## Results
-- Cross Validation Accuracy: ~90%
-- Final Model: Random Forest Classifier
 
 ## Key Insights
 - Traffic conditions strongly influence delivery delays.
@@ -68,11 +58,6 @@ Used GridSearchCV to optimize Random Forest parameters.
 - Matplotlib
 - Seaborn
 - Scikit-Learn
-
-## Future Improvements
-- Deploy as a Streamlit application
-- Experiment with XGBoost and LightGBM
-- Real-time delay prediction
 
 ## Author
 Sowjanya Tadimarri
