@@ -59,5 +59,3 @@ Used GridSearchCV to optimize Random Forest parameters.
 - Seaborn
 - Scikit-Learn
 
-## Author
-Sowjanya Tadimarri
