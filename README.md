@@ -38,12 +38,6 @@ Evaluation metrics:
 ## Hyperparameter Tuning
 Used GridSearchCV to optimize Random Forest parameters.
 
-## Key Insights
-- Traffic conditions strongly influence delivery delays.
-- Weather severity contributes significantly to delays.
-- Delivery distance affects delay probability.
-- Customer and restaurant-related factors also influence delivery performance.
-
 ## Technologies Used
 - Python
 - Pandas
