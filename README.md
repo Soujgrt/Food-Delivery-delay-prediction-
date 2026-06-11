@@ -1,5 +1,5 @@
 # Food-Delivery-delay-prediction-
-Food delivery delay prediction using Logistic Regression and Random Forest with cross-validation, hyperparameter tuning, and feature importance analysis.
+Food delivery delay prediction using Logistic Regression and Random Forest ,XGBoost and AdaBoost classifier with cross-validation, hyperparameter tuning, and feature importance analysis.
 
 ## Project Overview
 This project predicts whether a food delivery will be delayed using Machine Learning. The workflow includes data cleaning, handling missing values, exploratory data analysis (EDA), feature engineering, model training, cross-validation, hyperparameter tuning, and model evaluation.
@@ -31,13 +31,6 @@ Some of the important features used:
 - Removed identifier columns
 - Removed data leakage features
 - Train-test split
-
-## Models Used
-### Logistic Regression
-Used as a baseline classification model.
-
-### Random Forest Classifier
-Used as the final model after model comparison.
 
 ## Model Evaluation
 Evaluation metrics:
