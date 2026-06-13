@@ -15,7 +15,7 @@ Food delivery platforms need to identify orders that are likely to be delayed or
 
 3. Feature Engineering
    - Created relevant features for modeling.
-   - Encoded categorical variables.
+     
 
 4. Data Leakage Detection & Removal
    - Identified leakage-related features.
