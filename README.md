@@ -1,48 +1,49 @@
 # Food-Delivery-delay-prediction-
-Food delivery delay prediction using Logistic Regression and Random Forest ,XGBoost and AdaBoost classifier with cross-validation, hyperparameter tuning, and feature importance analysis.
 
-## Project Overview
-This project predicts whether a food delivery will be delayed using Machine Learning. The workflow includes data cleaning, handling missing values, exploratory data analysis (EDA), feature engineering, model training, cross-validation, hyperparameter tuning, and model evaluation.
 
 ## Problem Statement
-Food delivery platforms need to identify orders that are likely to be delayed so that they can take proactive measures and improve customer satisfaction.
+Food delivery platforms need to identify orders that are likely to be delayed or not  so that they can take proactive measures and improve customer satisfaction.
 
-## Dataset Features
-Some of the important features used:
+## Machine Learning Pipeline
 
-- City Tier
-- Customer Age
-- Customer Loyalty Score
-- Order Hour
-- Delivery Distance
-- Preparation Time
-- Traffic Level Score
-- Weather Severity Score
-- Restaurant Rating
-- Delivery Partner Rating
-- Order Value
-- Delivery Fee
-- Number of Items
-- Premium Customer Flag
-- Festival or Weekend Flag
+1. Data Loading
+   - Loaded the food delivery dataset.
 
-## Data Preprocessing
-- Handled missing values using median imputation
-- Removed identifier columns
-- Removed data leakage features
-- Train-test split
+2. Data Cleaning
+   - Handled missing values using median imputation.
+   - Removed unnecessary identifier columns.
 
-## Model Evaluation
-Evaluation metrics:
+3. Feature Engineering
+   - Created relevant features for modeling.
+   - Encoded categorical variables.
 
-## Hyperparameter Tuning
-Used GridSearchCV to optimize Random Forest parameters.
+4. Data Leakage Detection & Removal
+   - Identified leakage-related features.
+   - Removed target-dependent variables and retrained models.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
+5. Data Preprocessing
+   - Performed train-test split.
+   - Prepared features for machine learning models.
 
+6. Model Training
+   - Logistic Regression
+   - Random Forest
+   - AdaBoost
+   - XGBoost
+
+7. Model Evaluation
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report
+
+8. Model Validation
+   - Cross-Validation
+
+9. Hyperparameter Tuning
+   - GridSearchCV for Random Forest optimization.
+
+10. Feature Importance Analysis
+   - Identified and visualized the most influential features affecting delivery delays.
+
+11. Business Insights
+   - Interpreted key factors contributing to delayed deliveries.
